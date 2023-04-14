@@ -625,7 +625,7 @@ button:hover {
     }
 
     #benefit {
-        height: 300px;
+        height: auto;
         padding-top: 50px;
         padding-bottom: 50px;
         background-color: rgb(240, 234, 234);
@@ -679,8 +679,8 @@ button:hover {
 
     .review-row .review-col-2 p {
         font-size: 14px;
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .review-row .review-col-2 h4 {
         margin: 15px 40%;
