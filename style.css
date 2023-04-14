@@ -150,7 +150,7 @@ button:hover {
 }
 
 .benefit-row {
-    width: 100%;
+    width: auto;
     align-items: center;
     margin: 0px -20px;
     display: flex;
@@ -518,7 +518,7 @@ button:hover {
         padding: 30px 10px 70px;
         margin: 15px 15px;
         background-color: #FFD800;
-        width: 500px;
+        width: auto;
         height: 160px;
     }
 
@@ -569,10 +569,11 @@ button:hover {
         margin-left: -30px;
         margin-right: 8px;
         font-size: 13px;
+        
     }
 
     .review-row .review-col-2 h4 {
-        margin: 15px 22%;
+        margin: auto;
         font-size: 20px;
         font-weight: 500px;
         text-align: center;
