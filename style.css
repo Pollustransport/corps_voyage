@@ -562,7 +562,7 @@ button:hover {
         padding-top: 5px;
         padding-bottom: 5px;
         margin: 30px 0px;
-        height: 900px;
+        height: auto;
     }
 
     .review-row .review-col-2 p {
