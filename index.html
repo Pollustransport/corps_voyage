@@ -40,7 +40,7 @@
     <!-- home -->
 
     <section id="banner">
-      <div class="topnav" id="myTopnav">
+      <div class="topnav">
         <img
           src="assets/images/Logo.png"
           class="active"
@@ -52,15 +52,19 @@
           <button class="common-btn" type="button" onclick="bookTicket()">
             Book a Ride
           </button>
-          <a
-            href="javascript:void(0);"
-            target="_blank"
-            class="icon"
-            onclick="myFunction()"
-          >
+          <div class="icon" onclick="handleDrop()">
             <i class="fa fa-bars"></i>
-          </a>
+          </div>
         </div>
+      </div>
+      <div class="responsive-nav" id="drop">
+        <div class="nav-links" onclick="defaultRoute()">
+          <p class="links">Cities</p>
+        </div>
+        <div class="nav-links" onclick="defaultRoute()"><p>Payment</p></div>
+        <button class="common-btn" type="button" onclick="bookTicket()">
+          Book a Ride
+        </button>
       </div>
     </section>
 
